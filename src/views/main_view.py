@@ -9,6 +9,7 @@ class MainView(tk.Tk):
         super().__init__()
         self.title("Study Tracker")
         self.geometry("1000x600")
+        self.minsize(width=340, height=200)
         
         self.paned_window = tk.PanedWindow(self, orient=tk.HORIZONTAL, sashrelief="solid")
 
